@@ -9,5 +9,5 @@ def get_router_ip():
         s.close()
 
     return ip
-
-print(get_router_ip())
+if __name__ == "__main__":
+    print(get_router_ip())
